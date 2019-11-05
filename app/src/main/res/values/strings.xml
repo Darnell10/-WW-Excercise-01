@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">WW-Exercise-01</string>
+    <string name="title">Title</string>
+    <string name="filter">Filter</string>
+    <string name="snack_message">Looks tasty, huh?</string>
+</resources>
