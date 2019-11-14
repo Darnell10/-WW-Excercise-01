@@ -4,8 +4,8 @@ import android.content.Intent;
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
 
-import com.weightwatchers.ww_exercise_01.ui.MainActivity;
-import com.weightwatchers.ww_exercise_01.ui.WW_Splash;
+import com.weightwatchers.ww_exercise_01.view.MainActivity;
+import com.weightwatchers.ww_exercise_01.view.WW_Splash;
 
 import org.junit.Rule;
 import org.junit.Test;

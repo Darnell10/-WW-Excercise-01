@@ -1,4 +1,4 @@
-package com.weightwatchers.ww_exercise_01.ui;
+package com.weightwatchers.ww_exercise_01.view;
 
 import android.os.Parcelable;
 import android.support.v7.app.AppCompatActivity;
