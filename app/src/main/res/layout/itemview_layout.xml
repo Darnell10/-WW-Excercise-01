@@ -9,8 +9,11 @@
             name="food"
             type="com.weightwatchers.ww_exercise_01.model.FoodModel" />
 
-    </data>
+        <variable
+            name="listener"
+            type="com.weightwatchers.ww_exercise_01.view.FoodClickListener" />
 
+    </data>
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -23,6 +26,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#ffffff"
+            android:onClick="@{listener::onFoodClicker}"
             android:padding="10dp">
 
             <ImageView
@@ -54,5 +58,7 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
+
+
 </layout>
 
