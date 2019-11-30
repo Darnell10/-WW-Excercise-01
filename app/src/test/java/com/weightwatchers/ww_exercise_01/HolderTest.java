@@ -1,7 +1,5 @@
 package com.weightwatchers.ww_exercise_01;
 
-import com.weightwatchers.ww_exercise_01.networking.ApiUtil;
-
 import org.junit.Test;
 
 public class HolderTest {

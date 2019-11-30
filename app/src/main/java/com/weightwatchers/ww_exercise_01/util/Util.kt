@@ -20,16 +20,15 @@ fun getProgressDrawable(context: Context): CircularProgressDrawable {
 fun ImageView.loadImage(url: String?, progressDrawable: CircularProgressDrawable) {
 
     val option = RequestOptions()
-            .placeholder(progressDrawable).error(R.drawable.ww)
-
+            .placeholder(progressDrawable)
+            .error(R.drawable.ww)
     Glide.with(context)
             .setDefaultRequestOptions(option)
             .load(url)
             .into(this)
 }
 
-@BindingAdapter("android: image")
-
+@BindingAdapter("android:imageUrl")
 fun loadImage(view: ImageView, url: String?) {
     view.loadImage(url, getProgressDrawable(view.context))
 

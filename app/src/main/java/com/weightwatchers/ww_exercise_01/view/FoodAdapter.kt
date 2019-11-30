@@ -39,7 +39,7 @@ class FoodAdapter(val foodList: ArrayList<FoodModel>) : RecyclerView.Adapter<Foo
 
     override fun onFoodClicker(view: View) {
 
-         Snackbar.make(view,"Looks good?",
+        Snackbar.make(view, "Looks good?",
                 Snackbar.LENGTH_LONG).show()
     }
 
